@@ -7,7 +7,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task0.V12.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\Users\olegs\source\repos\Tyuiu.SanzyapovOD.Sprint5\Tyuiu.SanzyapovOD.Sprint5.Task0.V12\bin\OutPutFileTask0.txt";
+            string path = Path.GetTempFileName();
             FileInfo fileInfo = new FileInfo(path);
             bool tyta = fileInfo.Exists;
             bool wait = true;
