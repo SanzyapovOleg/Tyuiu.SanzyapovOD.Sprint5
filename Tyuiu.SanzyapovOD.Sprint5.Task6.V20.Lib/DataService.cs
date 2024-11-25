@@ -12,7 +12,8 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task6.V20.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    text = line.Split(' ');
+                    line = line.Replace(".", " ");
+                    text = line.Split(' ');                  
                     foreach (string word in text)
                     {
                         int lenght = word.Length;
