@@ -8,14 +8,15 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task5.V23.Lib
             double min = 100000;
             using (StreamReader reader = new StreamReader(path))
             {
-                string line;
+                string line;             
                 while ((line = reader.ReadLine()) != null)
+                line = line.Replace(".", ",");
                 {
                     if (Convert.ToDouble(line) < min)
                     {
                         min = Convert.ToDouble(line);
                     }
-                }
+                }               
             }
             return -9;
         }
