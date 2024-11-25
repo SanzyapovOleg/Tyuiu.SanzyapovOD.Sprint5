@@ -20,7 +20,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task7.V13.Lib
                 {
                     for (int i = 0; i < line.Length; i++)
                     {
-                        if (line[i] >= 'a' && line[i] <= 'z')
+                        if (line[i] !>= 'a' && line[i] !<= 'z')
                             {
                             strLine += line[i];
                         }
