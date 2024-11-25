@@ -21,7 +21,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task7.V13
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            string path = @"C:\DataSprint5\InPutDataFileTask7V12.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask7V13.txt";
             Console.WriteLine("Данные находятся в файле: " + path);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
