@@ -20,8 +20,8 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task7.V13.Lib
                 {
                     for (int i = 0; i < line.Length; i++)
                     {
-                        if (((line[i] != 'Э') && (line[i] != 'П') && (line[i] != 'Р') && (line[i] != 'И') && (line[i] != 'В') && (line[i] != 'Е') && (line[i] != 'Т') && (line[i] != 'М') && (line[i] != 'О') && (line[i] != 'Я') && (line[i] != 'А') && (line[i] != 'Ш') && (line[i] != 'Щ') && (line[i] != 'У') && (line[i] != 'С') && (line[i] != 'К') && (line[i] != 'Ч') && (line[i] != 'Н') && (line[i] != 'Ж') && (line[i] != 'Д') && (line[i] != 'Ц') && (line[i] != 'Л') && (line[i] != 'Ф') && (line[i] != 'Б') && (line[i] != 'Ю')) && ((line[i] != 'Q') && (line[i] != 'W') && (line[i] != 'E') && (line[i] != 'R') && (line[i] != 'T') && (line[i] != 'Y') && (line[i] != 'U') && (line[i] != 'I') && (line[i] != 'O') && (line[i] != 'P') && (line[i] != 'A') && (line[i] != 'S') && (line[i] != 'D') && (line[i] != 'F') && (line[i] != 'G') && (line[i] != 'H') && (line[i] != 'J') && (line[i] != 'K') && (line[i] != 'L') && (line[i] != 'Z') && (line[i] != 'X') && (line[i] != 'C') && (line[i] != 'V') && (line[i] != 'B') && (line[i] != 'N') && (line[i] != 'M')))
-                        {
+                        if (line[i] >= 'a' && line[i] <= 'z')
+                            {
                             strLine += line[i];
                         }
                     }
