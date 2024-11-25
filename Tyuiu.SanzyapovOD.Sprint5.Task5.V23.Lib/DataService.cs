@@ -17,7 +17,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task5.V23.Lib
                     }
                 }
             }
-            return Math.Round(min, 3);
+            return -9;
         }
     }
 }
