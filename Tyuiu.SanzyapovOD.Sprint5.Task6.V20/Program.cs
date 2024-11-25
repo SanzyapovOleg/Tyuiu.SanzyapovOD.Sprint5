@@ -23,7 +23,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task6.V20
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("***************************************************************************");
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask6V20.txt";
+            string path = $@"C:\DataSprint5\InPutDataFileTask6V20.txt";
             Console.WriteLine("Данные находятся в файле: " + path);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
