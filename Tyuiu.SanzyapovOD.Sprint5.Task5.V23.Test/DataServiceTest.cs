@@ -7,7 +7,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task5.V23.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask5V23.txt";
+            string path = Path.GetTempFileName();
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;

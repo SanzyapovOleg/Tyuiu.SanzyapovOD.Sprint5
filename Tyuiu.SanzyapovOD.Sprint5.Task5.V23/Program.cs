@@ -22,7 +22,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task5.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            string path = $@"C:\DataSprint5\InPutDataFileTask5V23.txt";
+            string path = Path.GetTempFileName();
             Console.WriteLine("Данные находятся в файле: " + path);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
