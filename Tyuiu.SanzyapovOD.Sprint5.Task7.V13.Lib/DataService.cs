@@ -5,7 +5,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task7.V13.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask7V13.txt";
+            string pathSaveFile = Path.GetTempFileName();
             FileInfo fileinfo = new FileInfo(pathSaveFile);
             bool fileExists = fileinfo.Exists;
             if (fileExists)
