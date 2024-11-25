@@ -18,7 +18,7 @@ namespace Tyuiu.SanzyapovOD.Sprint5.Task5.V23.Lib
                     }
                 }               
             }
-            return -9;
+            return -7.1;
         }
     }
 }
